@@ -8,6 +8,7 @@ import { Page4 } from '../pages/page4/page4';
 import { Page5 } from '../pages/page5/page5';
 import { Page6 } from '../pages/page6/page6';
 import { Page7 } from '../pages/page7/page7';
+import { Page8 } from '../pages/page8/page8';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Page7 } from '../pages/page7/page7';
     Page4,
     Page5,
     Page6,
-    Page7
+    Page7,
+    Page8
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -32,7 +34,8 @@ import { Page7 } from '../pages/page7/page7';
     Page4,
     Page5,
     Page6,
-    Page7
+    Page7,
+    Page8
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

@@ -9,6 +9,7 @@ import { Page4 } from '../pages/page4/page4';
 import { Page5 } from '../pages/page5/page5';
 import { Page6 } from '../pages/page6/page6';
 import { Page7 } from '../pages/page7/page7';
+import { Page8 } from '../pages/page8/page8';
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +33,8 @@ export class MyApp {
       { title: 'Page Four', component: Page4},
       { title: 'Page Five', component: Page5},
       { title: 'Page Six', component: Page6},
-      { title: 'Page Seven', component: Page7}
+      { title: 'Page Seven', component: Page7},
+      { title: 'Page Eight', component: Page8}
     ];
 
   }

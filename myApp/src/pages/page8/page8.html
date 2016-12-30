@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page Eight</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <button ion-button block color="dark" (click)="doAlert()">Show Alert</button>
+
+  <h1>Animations</h1>
+  <button [@flip]="flipState" ion-button color="light" (click)="toggleFlip()">Flip!</button>
+  <button [@flyInOut]="flyInOutState" ion-button color="light" (click)="toggleFlyInOut()">Fly Out!</button>
+  <button [@fade]="fadeState" ion-button color="light" (click)="toggleFade()">Fade!</button>
+  <button [@bounce]="bounceState" ion-button color="light" (click)="toggleBounce()">Bounce!</button>
+  <button ion-button color="primary" block (click)="doConfirm()">Show Confirm Alert</button>
+
+
+</ion-content>
