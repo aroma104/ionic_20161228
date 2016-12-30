@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACZ,KAAK,EAAE,OAAO;;AAEhB,8BAA+B;EAC7B,KAAK,EAAE,OAAO;;AAEhB,qBAAsB;EACpB,KAAK,EAAE,OAAO;;AAEhB;kCACmC;EACjC,KAAK,EAAE,OAAO",
+"sources": ["page7.scss"],
+"names": [],
+"file": "page7.css"
+}
